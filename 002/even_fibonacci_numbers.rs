@@ -3,7 +3,7 @@ fn fibonacci_even(limit: u32) -> u32 {
     let mut x;
     let mut y = 1u32;
     let mut z = 2u32;
-    while even_sum < limit {
+    while z < limit {
         even_sum += z;
         x = y + z;
         y = x + z;
